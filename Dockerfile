@@ -20,7 +20,8 @@ RUN apk add --no-cache \
     openssh-client \
     postgresql-libs \
     rsync \
-    zlib-dev
+    zlib-dev \
+    postgresql-client
 
 # Install php extensions
 RUN chmod +x /usr/local/bin/install-php-extensions && \
